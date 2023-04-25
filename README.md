@@ -13,8 +13,8 @@
 Run npm install to download all the packages needed to use application.
 ## Usage
 Use this application to keep track of notes. Click the 'Get Started' button to begin.  
-Deployed app: 
-<img src="" alt = "screenshot of deployed note taking app site"/>
+ 
+
 ## License
 This application is covered under the MIT license.
 ## Contributing
