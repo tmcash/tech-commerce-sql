@@ -1,12 +1,11 @@
-import { Model, DataTypes } from 'sequelize';
-
-import sequelize from '../config/connection.js';
+const { Model, DataTypes } = require('sequelize');
+const sequelize = require('../config/connection.js');
 
 class Tag extends Model {}
 
 Tag.init(
 {
-  
+
     id: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
@@ -26,4 +25,4 @@ Tag.init(
 }
 );
 
-export default Tag;
+module.exports = Tag;
