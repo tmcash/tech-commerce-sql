@@ -10,9 +10,9 @@
 [Tests](#tests)  
 [Questions](#questions)
 ## Installation
-Run npm install to download all the packages needed to use application.
+The application requires node.js, express.js, mysql, and sequelize to run. Run npm install to install the packages necessary in the command line. You will also need to change your password in the .env file. You will need to run mysql, then run seed, then npm start to get the app going on port 3001.
 ## Usage
-Use this application to keep track of notes. Click the 'Get Started' button to begin.  
+This application is used to show that all routes are working.  
  
 
 ## License
